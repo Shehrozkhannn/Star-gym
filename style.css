@@ -1,0 +1,448 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-video{
+    position: relative;
+}
+#bg-video{
+    min-width: 100%;
+    max-height: 100vh;
+    object-fit: cover;
+    
+}
+.video-overlay{
+    position: absolute;
+    background-color: rgba(35,45,57,0.8);
+    top: 0;
+    left: 0;
+    bottom: 7px;
+    width: 100%;
+}
+.head-section{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    z-index: 1;
+    background: rgba(250,250,250,0.1);
+}
+.header{
+    border: 1px solid transparent;
+    height: 100px;
+    width: 100%;
+}
+ul{
+    float: right;
+    margin: 18px 144px 0px 0px;
+}
+li{
+    display: inline-block;
+    padding: 23px;
+}
+li a{
+    cursor: pointer;
+    color: #fff;
+}
+li a:hover{
+    color: #ed563b;
+}
+#btn-1{
+    padding: 13px 9px;
+    color: #fff;
+    background-color: #ed563b;
+    border: none;
+}
+#btn-1:hover{
+    cursor: pointer;
+    background-color: coral;
+    color: #000;
+    transition: ease 2s;
+}
+.logo{
+    color: #fff;
+    font-size: 32px;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 29px 0px 0px 112px
+}
+em{
+    font-style: normal;
+    color: #ed563b;
+    font-weight: 900;
+}
+.body-section-1{
+    /* border: 2px solid green; */
+    height: 285px;
+    width: 100%;
+    text-align: center;
+    margin-top: 134px;
+    color: #fff;
+}
+.body-section-1 h6{
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+}
+.body-section-1 h2{
+    font-size: 84px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    padding: 22px 0px;
+}
+.body-section-1 em{
+    font-style: normal;
+    color: #ed563b;
+    font-weight: 900;
+}
+#btn-2{
+    padding: 13px 9px;
+    color: #fff;
+    background-color: #ed563b;
+    border: none;
+}
+#btn-2:hover{
+    cursor: pointer;
+    background-color: coral;
+    color: #000;
+    transition: ease 2s;
+}
+.body-section-2{
+    border: 1px solid transparent   ;
+    width: 100%;
+    height: 280px;
+    text-align: center;
+    padding-top: 93px;
+}
+.body-section-2 h2{
+    font-size: 28px;
+}
+.body-section-2 img{
+    margin: 20px auto;
+}
+.body-section-2 h3{
+    margin-top: 51px;
+}
+.body-section-2 h3 a:hover{
+    color: #ed563b;
+    cursor: pointer;
+    transition: ease-out 0.3s;
+}
+.body-section-2 p{
+    font-size: 14px;
+    color: #7a7a7a;
+    line-height: 25px;
+} 
+
+.body-section-3{
+    border: 1px solid transparent;
+    width: 100%;
+    height: 700px;
+    padding: 0px 130px;
+}
+.inside-1{
+    display: inline-block;
+    /* border: 1px solid black; */
+    width: 500px;
+    height: 170px;
+}
+.content-1 h4{
+    margin-bottom: 5px;
+}
+.content-1 p{
+    margin-bottom: 8px;
+}
+.content-1 a{
+    text-decoration: none;
+    color: #ed563b
+}
+.gym-pic img{
+    float: left;
+    margin-right: 30px;
+}
+.inside-2{
+    /* border: 1px solid black; */
+    width: 500px;
+    height: 170px;
+    float: right;
+}
+.content-2 h4{
+    margin-bottom: 5px;
+}
+.content-2 p{
+    margin-bottom: 8px;
+}
+.content-2 a{
+    text-decoration: none;
+    color: #ed563b
+}
+.gym-pic img{
+    float: left;
+    margin-right: 30px;
+}
+
+.inside-3{
+    display: inline-block;
+    /* border: 1px solid black; */
+    width: 500px;
+    height: 170px;
+}
+.content-3 h4{
+    margin-bottom: 5px;
+}
+.content-3 p{
+    margin-bottom: 8px;
+}
+.content-3 a{
+    text-decoration: none;
+    color: #ed563b
+}
+.inside-4{
+    /* border: 1px solid black; */
+    width: 500px;
+    height: 170px;
+    float: right;
+}
+.content-4 h4{
+    margin-bottom: 5px;
+}
+.content-4 p{
+    margin-bottom: 8px;
+}
+.content-4 a{
+    text-decoration: none;
+    color: #ed563b
+}
+.inside-5{
+    display: inline-block;
+    /* border: 1px solid black; */
+    width: 500px;
+    height: 170px;
+}
+.content-5 h4{
+    margin-bottom: 5px;
+}
+.content-5 p{
+    margin-bottom: 8px;
+}
+.content-5 a{
+    text-decoration: none;
+    color: #ed563b
+}
+.inside-6{
+    /* border: 1px solid black; */
+    width: 500px;
+    height: 170px;
+    float: right;
+}
+.content-6 h4{
+    margin-bottom: 5px;
+}
+.content-6 p{
+    margin-bottom: 8px;
+}
+.content-6 a{
+    text-decoration: none;
+    color: #ed563b;
+}
+.body-section-4{
+    width: 100%;
+    height: 330px;
+    background: url("./assets/section-4-bg.jpg");
+    border: 2px solid transparent;
+    text-align: center;
+}
+.body-section-4 h2{
+    font-size: 40px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    padding: 22px 0px;
+    color: #fff;
+}
+.body-section-4 p{
+    font-size: 20px;
+    color: #7a7a7a;
+    line-height: 25px;
+    margin-bottom: 20px;
+    color: #fff;
+} 
+.inside{
+    margin: 64px 0px;
+}
+.body-section-5{
+    width: 100%;
+    height: 703px;
+    border: 1px solid transparent;
+    padding: 0px 102px;
+}
+.first-training{
+    width: 377px;
+    height: 104px;
+   
+    margin-bottom: 32px;  
+    padding: 29px 51px; 
+    box-shadow: 0px 0px 15px rgb(0 0 0 / 10%);
+}
+.first-training h2{
+    float: right;
+    margin-right: 14px;
+    margin-top: 9px;
+}
+#second{
+    margin: 2px;
+}
+#third{
+    color: #fff;
+}
+.train-btn{
+    width: 377px;
+    height: 68px;
+    /* border: 1px solid black; */
+    background-color: #ed563b;
+    padding: 19px 89px;
+    border-radius: 9px;
+    
+}
+.training-image{
+    width: 692px;
+    height: 310px;
+    /* border: 1px solid red; */
+    float: right;
+    margin-top: -612px;
+    background: url("./assets/training-image.jpg");
+}
+.training-content{
+    height:200px;
+    width: 692px;
+    /* border: 1px solid red; */
+    float: right;
+    margin-top: -279px;
+}
+.training-content p{
+    font-size: 20px;
+    color: #7a7a7a;
+    margin-bottom: 20px;
+    margin-top: 7px;
+    
+}
+.body-section-6{
+    height: 900px;
+    width: 100%;
+    border: 1px solid transparent;
+    background: url("./assets/schedule-bg.jpg");
+    color: #fff;
+}
+.table-section{
+    height: 600px;
+    width: 100%;
+    padding: 39px 162px;
+}
+.table-section table{
+    border: 1px solid #fff;
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+.table-section tbody{
+    border-top: 1px solid #fff;
+}
+.table-section td{
+    border-right: 1px solid #fff;
+    height: 100px;
+    color: #fff;
+}
+.table-section tr{
+    border-bottom: 1px solid #fff;
+
+}
+.body-section-7{
+    width: 100%;
+    height: 800px;
+    border: 1px solid transparent;
+}
+.section-cards{
+    padding: 0px 124px;
+}
+.strength-card{
+    width: 348px;
+    height: 450px;
+    box-shadow: 0px 0px 15px rgb(0 0 0 / 10%);
+    display: inline-block;
+    padding: 41px 18px;
+}
+.strength-card p{
+    padding: 12px 0px;
+    color:#7a7a7a;
+}
+.muscle-card{
+    width: 348px;
+    height: 450px;
+    box-shadow: 0px 0px 15px rgb(0 0 0 / 10%);
+    float: right;
+    padding: 41px 18px;
+}
+.muscle-card p{
+    padding: 12px 0px;
+    color:#7a7a7a;
+}
+.power-card{
+    width: 348px;
+    height: 450px;
+    box-shadow: 0px 0px 15px rgb(0 0 0 / 10%);
+    float: right;
+    margin-right: 23px;
+    padding: 41px 18px;
+}
+.power-card p{
+    padding: 12px 0px;
+    color:#7a7a7a;
+}
+.icons{
+    padding: 2px 0px;
+}
+.body-section-8{
+    width: 100%;
+    height: 406px;
+    border: 2px solid transparent;
+    padding: 0px 69px;
+}
+.left-form{
+    width: 600px;
+    height: 400px;
+    border: 2px solid black;
+    float: right;
+    background: url(./assets/schedule-bg.jpg);
+}
+.right-form{
+    width: 600px;
+    height: 400px;
+    border: 2px solid black;
+    display: inline-block;
+}
+.f1{
+    display: inline-block;
+    padding: 19px 41px;
+}
+input{
+    padding: 5px 5px;
+}
+.f2{
+    display: inline-block;
+
+}
+.f3{
+    padding: 0px 41px;
+}
+.f4{
+    margin: 43px 41px;
+}
+.form-btn{
+    margin-left: 40px;
+}
+.footer{
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    margin-top: 35px;
+}
